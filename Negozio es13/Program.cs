@@ -18,14 +18,14 @@ namespace Negozio_es13
                 sconto = (b/100)*50;
                 costominore = b - sconto;
                 prezzototale = a + costominore;
-                Console.WriteLine($"Importo scontato da pagare : {prezzototale}");
+                Console.WriteLine($"Importo scontato da pagare : {prezzototale} ");
             }
             else
             {
                 sconto = (a / 100) * 50;
                 costominore = a - sconto;
                 prezzototale = b + costominore;
-                Console.WriteLine($"Importo scontato da pagare : {prezzototale}");
+                Console.WriteLine($"Importo scontato da pagare : {prezzototale} ");
             }
             Console.ReadLine();
         }
